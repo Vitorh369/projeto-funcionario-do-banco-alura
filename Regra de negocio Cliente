@@ -1,0 +1,23 @@
+# projeto-funcionario-do-banco-alura
+
+public class Cliente implements Autenticavel{
+
+	private AutenticacaoSenha util;
+
+	public Cliente() {
+		this.util = new AutenticacaoSenha();
+	}
+	
+	@Override
+	public void setSenha(int senha) {
+		this.setSenha(senha);
+		
+	}
+
+	@Override
+	public boolean autenticacao(int senha) {
+		return this.autenticacao(senha);
+		
+	}
+
+}
