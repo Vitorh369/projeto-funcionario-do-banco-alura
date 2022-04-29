@@ -1,0 +1,9 @@
+# projeto-funcionario-do-banco-alura
+
+public class EditorDeVideo extends Funcionario {
+
+	public double getBonificacao() {
+		System.out.println("Bonificaçaõ do editor de video");
+		return 100;
+	}
+}
